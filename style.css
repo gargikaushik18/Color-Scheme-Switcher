@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 25px;
+        margin: 5px;
+}
+
+.canvas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 700px;
+    max-height: 500px;
+    margin: 0 auto 20px;
+}
+
+.button {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.grey {
+    background-color: #555;
+}
+.purple {
+    background-color:purple;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.blue {
+    background-color: #00f;
+}
+
+.yellow {
+    background-color: #ff0;
+}
